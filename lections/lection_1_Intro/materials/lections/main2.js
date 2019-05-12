@@ -15,7 +15,7 @@ var a = '243', b = '123', c = 0;
 // c = a - b;
 // console.log('c', c);
 
-// с = a % b;
+// c = a % b;
 
 console.log('Остаток: ', c);
 
