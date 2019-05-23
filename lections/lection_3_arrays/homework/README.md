@@ -1,24 +1,21 @@
 ﻿# Домашняя работа
 
 # Читаем информационные ресурсы:
- * https://learn.javascript.ru/switch
- * https://learn.javascript.ru/operators
- * https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof
- * http://learn.javascript.ru/external-script
- * https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/if...else
- * https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for
- * https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/do...while
+ * https://learn.javascript.ru/array
+ * https://learn.javascript.ru/array-methods //test
+ * https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 # Практика
+ 1. Заполнить массив А случайными числами (диазпазон на ваше усмотрение). Заменить каждый элемент массива с нечетным индексом на ноль.
 
- 1. Заставить пользователя ввести с клавиатуры число.
+ 2. Заполнить массив размерностью n значениями с клавиатуры. Если введенное значение пользователя  не число, или отрицательное значение, то запросить повторный ввод данных. 
 
- 2. Посчитать факториал n!, где n - ввести с клавиатуры.
- 
- 3. Написать скрипт возведения числа A в степень B. 
+ 3. Создать массив А размерностью n. Заполнить случайными числами любом диапазоне.
+    3.1 Найти максимальное число и минимальное число.
+    3.2 Элементы массива между min -- max записать в массив B.
 
- 4. Реализовать скрипт который получает номер n, и возвращает число Фибоначчи по этому номеру.
+ 4. Перевернуть массив, т.е. если был массив 1, 5, 6, 2, 4 -- то мы должны получить 4, 2, 6, 5, 1. 
+   Нельзя использовать стандартный метод reverse(). Постарайтесь не использовать дополнительный массив.
 
-  
 
 
