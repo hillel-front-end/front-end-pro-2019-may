@@ -135,8 +135,8 @@ function toDo(callback) { // func = moduleBank
   
 }
 // foo()
-toDo(foo) /// function () {   return '213';}
-// toDo(window) // '213' 
+// toDo(foo) /// function () {   return '213';}
+// toDo(foo()) // '213' 
 
 // function toDo2() {
 //   moduleBank();
