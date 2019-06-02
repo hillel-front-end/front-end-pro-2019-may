@@ -1,4 +1,4 @@
-# Изучить материал
+﻿# Изучить материал
 + https://drive.google.com/open?id=0B121aJ52ADuLRW5vblBwYnlROG8 (страницы 185-214)
 + http://learn.javascript.ru/function-declaration-expression
 + https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Functions
@@ -7,7 +7,7 @@
 
 # Практика
 
-1)Написать функицию которая вернет сумму переданных фактических аргументов.
+1) Написать функицию которая вернет сумму переданных фактических аргументов.
 
 2) Функция должна вернуть массив из центральных элементов переданных массивов.
 
