@@ -154,3 +154,15 @@ function add() {
 
 var res = add();
 console.log(res[2], 'res');
+
+
+function a () {
+  var arg = arguments;
+
+
+  for(var i = 0; i < arg.length; i++) {
+    var count = arg[i].length % 2? 1: 2;
+    var slice;
+
+  }
+}
