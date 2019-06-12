@@ -49,3 +49,38 @@ function foo (callback) {
 foo(func)
 
 console.log(func.a, 'func');
+
+var obj = { x: 10, y: 20, inner: { x: 20, z: 30 }, foo2: { k: 23, p: {foo: 20} } };
+
+
+function convert(obj) {
+    var objNew = {};
+
+    for (var key in obj) {
+        if (typeof obj[key] === 'object') {
+            var obj2 = convert(obj[key]); // inner
+
+            for (var i in obj2) {
+                objNew[i] = obj2[i];
+            }
+        } else {
+            objNew[key] = obj[key];
+            
+        }
+    }
+
+
+    return objNew;
+}
+
+var finish = convert(obj);
+
+console.log(finish, 'finish');
+
+
+var g = {
+    lastName: 123
+}
+
+console.log(g['name']);
+console.log(g.name);
