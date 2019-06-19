@@ -146,3 +146,56 @@ function a () {
 
 a ();
 a ();
+
+
+function initSlider(size) {
+    var counter  = 0;
+
+    function up () {
+        counter++;
+    }
+
+    function down() {
+
+    }
+
+    function rest () {
+        counter = 0;
+    }
+
+    function isFinish () {
+        return counter == size;
+    }
+
+    function isStart () {
+        return couter == 0;
+    }
+
+    function setCounter (value) {
+        counter = value || counter;
+    }
+
+    return {
+        upCounter: up,
+        downCounter: down
+    }
+}
+
+
+var slider = initSlider(10);
+
+// console.log(slider.upCounter(), 'slider');// 1
+// console.log(slider.upCounter(), 'slider');// 2
+// console.log(slider.upCounter(), 'slider');// 3
+// console.log(slider.upCounter(), 'slider');// 4
+// console.log(slider.upCounter(), 'slider');// 5
+// console.log(slider.upCounter(), 'slider');// 6
+// console.log(slider.upCounter(), 'slider');// 7
+// console.log(slider.upCounter(), 'slider');// 8
+// console.log(slider.upCounter(), 'slider');// 9
+// console.log(slider.upCounter(), 'slider');// 10
+// console.log(slider.upCounter(), 'slider');// 1
+
+// console.log(slider.down(), 'slider');// 1
+
+// console.log(slider.down(), 'slider');// 10
