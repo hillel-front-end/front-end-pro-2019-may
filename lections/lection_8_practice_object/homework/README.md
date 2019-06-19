@@ -1,4 +1,4 @@
-# Изучить материал
+﻿# Изучить материал
 
 * https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Working_with_Objects
 * https://learn.javascript.ru/object
@@ -22,8 +22,8 @@ assignObjects({...}, {...}, false);
 
 
 # Лекция
+0)Cоздать объект obj, добавить туда два свойства name и lastName. Изменить в поле name. Перебрать циклом for - in объект obj.
 
-* Cоздать объект obj, добавить туда два свойства name и lastName. Изменить в поле name. Перебрать циклом for - in объект obj.<br/>
 1)
 Создать объект с такой структурой:
     obj = {
