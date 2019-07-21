@@ -31,19 +31,19 @@ window.onload = function() {
     // var box = document.querySelector('.box');
 
     
-    var box = document.querySelectorAll('.box');
+    var box = document.querySelectorAll('.box, .foo');
+    console.log(box, 'box ')
     // box.className += ' active'; bad
     // console.dir(box.classList.add('active')); //add css class active
     // console.dir(box.classList.remove('active')); //remove css class active
     // console.dir(box.classList.toggle('active')); 
     // console.dir(box.classList.contain('active')); 
 
-    console.dir(box.innerHTML += '<span>1232</span>', 'box')
+    // console.dir(box.innerHTML += '<span>1232</span>', 'box')
     // setInterval(function() {
     //     box.classList.toggle('active')
     // }, 1000)
     // console.dir(box.classList.toggle('active')); 
     // for(var i = 0)
-
-
 }
+//background-color: rgb(100, 200, 150);

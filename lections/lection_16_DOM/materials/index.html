@@ -6,22 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+
         .box {
             width: 200px;
             height: 200px;
-            background: red;
             border: 1px solid black;
             margin-bottom: 10px;
+            position: fixed;
+            top: 0px;
+            transition: all 2s;
         }
 
-        .active {
+        .box:nth-child(1) {
+            background: red;
+            left: 0px;
+        }
+
+        .box:nth-child(2) {
             background: black;
+            left: 220px;
+        }
+
+        .box:nth-child(3) {
+            left: 440px;
+            background: blue;
+        }
+
+        .box:hover {
+            transform: rotate(320deg) scale(2);
         }
     </style>
 
 </head>
 <body >
-    <div class="box"> <span>123213</span> </div>
+    <div class="box"> </div>
+    <div class="foo"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
     <div class="box"></div>
     <div class="box"></div>
 </body>
