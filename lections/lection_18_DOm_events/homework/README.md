@@ -1,13 +1,9 @@
-# Изучить материал
+﻿# Изучить материал
 + https://learn.javascript.ru/keyboard-events
 + https://learn.javascript.ru/multi-insert
-
-+ https://learn.javascript.ru/attributes-and-custom-properties
-+ https://learn.javascript.ru/traversing-dom
-+ https://learn.javascript.ru/events-and-timing-depth
-+ https://learn.javascript.ru/obtaining-event-object
-+ https://learn.javascript.ru/mouse-clicks
-+ https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave
++ https://learn.javascript.ru/event-bubbling
++ https://learn.javascript.ru/event-delegation
++ https://learn.javascript.ru/behavior
 
 
 # Лекция

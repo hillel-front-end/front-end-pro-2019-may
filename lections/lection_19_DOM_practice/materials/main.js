@@ -34,6 +34,8 @@ window.onload = function() {
 
     boxSecond.addEventListener('contextmenu', function(event) {
         // event.preventDefault();
+
+        console.log(event)
         
         console.log('contextmenu - second');
     });

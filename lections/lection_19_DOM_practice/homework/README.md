@@ -1,4 +1,4 @@
-# Изучить материал
+﻿# Изучить материал
 + https://learn.javascript.ru/keyboard-events
 + https://learn.javascript.ru/multi-insert
 
@@ -8,10 +8,11 @@
 + https://learn.javascript.ru/obtaining-event-object
 + https://learn.javascript.ru/mouse-clicks
 + https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave
++ https://learn.javascript.ru/event-delegation !!!!
 
 
 # Лекция
-W
+
 1) Создать контекстное меню  при клике(event=contextmenu) на любое место в документе. Использую модель данных ниже(data):
 
 		data = { 
@@ -28,7 +29,7 @@ W
 				},
 				{
 					title: 'title 3',
-					handler: 'ActionExit' // названия метода из actions
+					handler: 'ActionExit' // названия метода из actions,
 				}
 			]
 		}

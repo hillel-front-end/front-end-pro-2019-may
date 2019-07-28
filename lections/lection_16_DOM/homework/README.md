@@ -1,10 +1,11 @@
-# Изучить материал
+﻿# Изучить материал
 
 + https://learn.javascript.ru/browser-environment
 + https://learn.javascript.ru/dom-nodes
 + https://learn.javascript.ru/dom-console
 + https://learn.javascript.ru/searching-elements-dom
 + https://learn.javascript.ru/basic-dom-node-properties
++ https://learn.javascript.ru/event-delegation
 
 # Практика
 
