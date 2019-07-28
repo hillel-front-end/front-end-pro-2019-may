@@ -44,33 +44,68 @@ window.onload = function() {
 
     // console.dir(div, 'div');
 
-    var container = document.querySelector('.container');
+    // var container = document.querySelector('.container');
 
 
-    var modalMessages = [
-        {name:'Valera', messages: 'Bla bla bla ....'},
-        {name:'Valera', messages: 'Bla bla bla ....'},
-        {name:'Valera', messages: 'Bla bla bla ....'},
-        {name:'Valera', messages: 'Bla bla bla ....'},
-    ]
-    var fragment = document.createDocumentFragment(); // псевдо тег, растворится после аппенда в ДОм
+    // var modalMessages = [
+    //     {name:'Valera', messages: 'Bla bla bla ....'},
+    //     {name:'Valera', messages: 'Bla bla bla ....'},
+    //     {name:'Valera', messages: 'Bla bla bla ....'},
+    //     {name:'Valera', messages: 'Bla bla bla ....'},
+    // ]
+    // var fragment = document.createDocumentFragment(); // псевдо тег, растворится после аппенда в ДОм
 
-    console.dir(fragment, 'fragment');
+    // console.dir(fragment, 'fragment');
     
-    for(var i = 0; i < modalMessages.length; i++) {
-        var message = document.createElement('section');
-        message.innerHTML = modalMessages[i].messages;
-        fragment.appendChild(message);
+    // for(var i = 0; i < modalMessages.length; i++) {
+    //     var message = document.createElement('section');
+    //     message.innerHTML = modalMessages[i].messages;
+    //     fragment.appendChild(message);
 
+    // }
+
+    // container.appendChild(fragment);
+
+
+    // setTimeout(function(){
+    //     // document.body.removeChild(container); 
+    //     container.remove();
+    // }, 5000)
+
+
+  var  data = { 
+        name: 'menu', 
+        type: 'row', 
+        items: [
+            {
+                title: 'title 1',
+                handler: 'ActionAdd'
+            },
+            {
+                title: 'title 2',
+                handler: 'ActionSaveAs',
+                items: [
+                    { title: 'inner 1' }, { title: 'inner 2' }
+                ]
+            },
+            {
+                title: 'title 3',
+                handler: 'ActionExit'
+            },
+            {
+                title: 'title 2',
+                handler: 'ActionSaveAs',
+                items: [
+                    { title: 'inner 1' }, { title: 'inner 2' }
+                ]
+            }
+        ]
     }
 
-    container.appendChild(fragment);
-
-
-    setTimeout(function(){
-        // document.body.removeChild(container); 
-        container.remove();
-    }, 5000)
 
 
 } 
+
+
+
+

@@ -7,10 +7,47 @@
     <title>Document</title>
     <link rel="stylesheet" href="./main.css">
     <style>
-        section{
-            border: 1px solid black;
-            margin-bottom: 10px;
+        * {
+            box-sizing: border-box;
         }
+
+        body {
+            margin: 0px;
+        }
+
+        ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .row, .column {
+            border: 1px solid red;
+        }
+
+        .row-item {
+            position: relative;
+            padding: 10px;
+            border: 1px solid red;
+            background: black;
+            color: white;
+            margin-right: 10px;
+            border-radius: 10px;
+        }
+
+        .submenu {
+            position: absolute;
+            top: calc(100% + 5px);
+            left: 0px;
+            width: 100%;
+            color: red;
+        }
+        
+
     </style>
     <script src="./main.js"></script>
 </head>
@@ -19,9 +56,8 @@
         <div class="first-child"></div>
     </div>
 
-    <div class="container">
+    <nav>
 
-
-    </div>
+    </nav>
 </body>
 </html>
