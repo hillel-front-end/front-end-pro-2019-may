@@ -12,9 +12,6 @@ console.log('Lection 21');
 //     console.log(i, 'i');
 // }
 
-function random(min, max) {
-    return Math.round((Math.random() * (max - min) + min));
-}
 
 // function m1() {
 //     m2();
@@ -46,6 +43,9 @@ function random(min, max) {
 
 
 
+function random(min, max) {
+    return Math.round((Math.random() * (max - min) + min));
+}
 
 var promise = new Promise(function(resolve, reject){
     cons
@@ -59,8 +59,7 @@ var promise = new Promise(function(resolve, reject){
 
 });
 
-promise.then(
-    function (value) {
+promise.then(function (value) {
         console.log('cb-1')
         return value  * 10;
     }, 
