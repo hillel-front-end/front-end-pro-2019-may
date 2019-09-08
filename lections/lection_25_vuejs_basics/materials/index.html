@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <style>
+        .text-error {
+            color: red;
+            font-size: 36px;
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+
+        <!-- <!-- интерполяции могут использоваться любые валидные выражения JavaScript. -->
+        
+    <!-- <div id="app">
+        При рендеринге выражения со скобками {{}} будут заменяться соответствующими значениями: 
+
+        {{ x }}
+
+        {{  obj.foo }}
+
+        {{  obj.foo }}
+
+        {{ isVisible? x : 'Goodbay  '}}
+
+        <br/>  
+
+        <div>
+            Value:
+            <span>{{ getValue(' !!!! ') }}</span>
+        </div>
+
+
+
+    </div>  -->
+    
+  <hr />
+    <!-- <div id="app-2">
+        {{ className }} -->
+
+<!--         
+        <a v-bind:href="href">{{href}}</a>
+
+        <span 
+            v-bind:style="appearence">
+            span inner text
+        </span> -->
+
+<!-- 
+        <div v-bind:class="{'text-error': success, complite: !success}" class="className">
+            {{ success? 'Error' : 'Complited request'}}
+        </div>
+
+        <button v-bind:disabled="success">click</button>
+    </div> -->
+
+    <!-- <hr /> -->
+
+
+
+    <!-- <div id="app-3">
+        <span v-if="seen">Сейчас меня видно</span>
+        <span v-show="seen">Сейчас меня видно</span>
+
+        <div v-if="currentPage == 'page1'">page1-First-auth</div>
+        <div  v-else-if="currentPage == 'page2'">page2-First-auth2</div> 
+        <div  v-else="currentPage == 'page3'">page3-First-auth3</div>
+
+        <button v-on:click="changeCurrentPage()"> next </button>
+    </div>
+
+    
+  -->
+    <!-- <hr /> -->
+
+    <!-- <div id="app-4">
+        <ol>
+            <li v-for="item in list"
+                v-if="item.text"
+                :class="item.className"
+               >
+                {{ item.text }}
+            </li>
+        </ol>
+        <!-- <table border="1">
+            <tr v-for="value in arr">
+                <td>{{ value }}</td>
+            </tr>
+        </table> -->
+    <!-- </div>  -->
+
+    <!-- <hr> -->
+    <!-- <div id="app-5">
+
+
+        <button 
+            v-for="(value, index) in list"
+            @click="foo($event, value.title, index')">
+            Click {{ value.title }}
+        </button> 
+    </div> -->
+
+    <hr> -->
+
+      <div id="app-6">
+            <p>{{ message }}</p>
+
+            <input v-model="message">
+
+            <!-- <input type="checkbox" v-model="switcher"> -->
+            
+
+            <!-- <span  v-bind:class="{ active: isActive > 10, 'text-danger': !isActive, a:true }">JHELLO</span> -->
+
+        <hr>
+    </div> 
+<!--
+    <hr>
+
+    <hr>
+    
+
+
+    <hr>  -->
+
+    <!-- <hr>
+    -->
+    <script src="./main.js"></script>
+</body>
+</html>
