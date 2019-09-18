@@ -1,7 +1,7 @@
 Vue.component('Nav-Item', {
     props:{
-        foo: Number, 
-        current: String
+        foo: String, 
+        current: Number
     },
     data() {
         return {
@@ -10,7 +10,6 @@ Vue.component('Nav-Item', {
     },
     template: `
     <div class="navigation__item" :class='current'>
-        {{foo}}
         {{current}}
     </div>
 `
@@ -26,14 +25,14 @@ Vue.component('Navigation', {
     },
     template: `
     <div class="navigation">
-        <Nav-Item v-for="item in navigationList" v-bind:current="a" v-bind:foo="item"> </Nav-Item>
+        <Nav-Item 
+        v-for="(item, $index) in navigationList"
+        :key="$index" 
+        v-bind:current="a" 
+        v-bind:foo="item"> </Nav-Item>
     </div>
 `
 });
-
-
-
-
 let config = {
     name: "Valera",
     list: ["red"]
